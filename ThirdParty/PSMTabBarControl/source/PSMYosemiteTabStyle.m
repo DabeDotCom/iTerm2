@@ -472,7 +472,7 @@ static const CGFloat kPSMTabBarCellBaselineOffset = 14.5;
 
     if (tabColor) {
         // Alpha the non-key window's tab colors a bit to make it clearer which window is key.
-        CGFloat alpha = [_tabBar.window isKeyWindow] ? 0.8 : 0.6;
+        CGFloat alpha = [_tabBar.window isKeyWindow] ? 0.7 : 0.85;
         
         // Alpha the inactive tab's colors a bit to make it clear which tab is active.
         if (selected) {
